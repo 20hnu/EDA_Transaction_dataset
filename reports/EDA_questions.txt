@@ -1,0 +1,45 @@
+EDA Questions from Both Perspectives:
+
+
+1. Customer-Centric EDA Questions
+
+* Do certain customers have repeated fraud history?
+* Does the account age or customer age affect fraud likelihood?
+* Is there a pattern between low availableMoney and fraud?
+* Are customers with high credit limits more/less likely to face fraud?
+* Are there customers with a high count of transactions marked as fraud?
+* What's the average balance difference (available vs current) in fraudulent cases?
+
+
+2. Transaction-Centric EDA Questions
+
+* Are certain transactionTypes more prone to fraud?
+* Does posEntryMode + cardPresent combo indicate more fraud?
+* Are specific merchants (or merchant categories) involved in more fraud?
+* What time of day or day of the week sees more fraud?
+* Is transaction amount unusually high/low for fraudulent cases?
+* Do mismatches in cardCVV or expiration dates correlate with fraud?
+
+3. Cross-Perspective Questions
+
+* Do certain customers get frauded more on specific merchants?
+* Are high-value transactions from new accounts more risky?
+* Is there a pattern between customer balance and transaction type in fraud cases?
+* Are foreign transactions (acqCountry ≠ merchantCountry) more prone to fraud?
+* Are older customers targeted differently in terms of transaction method?
+
+4. Questions provided by Mentor 
+
+- What are the most common merchants and merchant categories by transaction count and amount?
+- What is the distribution of transactionAmount? Are there any outliers?
+- What time of day and day of the week do most transactions (or frauds) occur?
+- Is there a difference in spending behavior between fraudulent and non-fraudulent transactions?
+- How does the availableMoney relate to the transactionAmount in fraudulent vs. normal transactions?
+- Which posEntryMode and posConditionCode combinations are more prone to fraud?
+- Are there specific merchant categories (merchantCategoryCode) that have higher fraud rates?
+- What is the average time gap between accountOpenDate and transactionDateTime for fraudulent transactions?
+- Do mismatches in cardCVV vs. enteredCVV and currentExpDate vs. expirationDateKeyInMatch correlate with fraud?
+- Is there a correlation between creditLimit, availableMoney, and currentBalance?
+- Are recurringAuthInd transactions more or less likely to be fraudulent?
+- Do fraudulent transactions tend to have a certain transactionType or cardPresent flag?
+- Are there repeated frauds from the same customerId or accountNumber? What are their patterns?

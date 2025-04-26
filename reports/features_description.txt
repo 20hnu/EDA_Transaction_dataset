@@ -27,3 +27,9 @@ cardPresent = The physical presence of The debit card in The transaction
 posOnPremises = The location of The point of sales
 recurringAuthInd = wheTher The auThentication recurred or not
 expirationDateKeyInMatch = The match between The expiration date in The system and what was inputted
+
+
+
+Customer-based columns: customerId, creditLimit, availableMoney, currentBalance, accountOpenDate, customerAge, etc.
+
+Transaction-based columns: transactionAmount, merchantName, transactionType, posEntryMode, cardPresent, acqCountry, etc.
