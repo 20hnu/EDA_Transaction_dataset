@@ -1,0 +1,24 @@
+* Duplicates: 0 rows
+* Missing values:
+    • acqCountry (3913)
+    • merchantCountryCode (624)
+    • posEntryMode (3345)
+    • posConditionCode (287)
+    • transactionType (589)
+* Handling Missing Values
+    - Since ”acqCountry” and ”merchantCountrycode” contains same values for each row
+but there are around 623 rows which have missing values for both columns. Hence
+these rows are removed.
+    - Remaining value for ”merchantCountryCode” is imputed with the help of ”acqCountry” and vice-versa
+    - Missing ”transactionType” values are imputed by most frequent type i.e ”PURCHASE”
+    - Rows containing missing values for ”posEntryMode” and ”posConditionCode” are
+removed.
+* DateTime columns are converted into pandas date time format.
+* New features are added as day, hour and month of transactionDateTime.
+* cross_border_count feature is added, which represents different merchantCountryCode and acqCountry for a transaction.
+* Final dataset is converted into shape of (637666, 27).
+
+
+* accountNumber and customerID are same for each row.
+* Number of unique accountNumber or customerId is 5000.
+* Most common account Numbers are 318001076 (9977 transactions), 456044564 (8339 transactions) and 812328116 (5461 transactions) among 5000 customers.

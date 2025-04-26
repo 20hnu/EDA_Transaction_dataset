@@ -1,0 +1,23 @@
+fraud-eda-project/
+│
+├── data/
+│   ├── raw/                   # Original raw datasets (do not modify)
+│   └── processed/             # Cleaned/modified datasets used in analysis
+│
+├── notebooks/
+│   └── eda.ipynb              # Jupyter notebook for EDA
+│
+├── scripts/
+│   ├── load_data.py           # Scripts to load/preprocess data
+│   ├── eda_utils.py           # Utility functions for plotting/stats
+│
+├── visuals/
+│   └── plots/                 # Saved plots (e.g., heatmaps, distributions)
+│
+├── reports/
+│   └── summary.md             # Summary of findings or exported results
+│
+├── .gitignore                 # To ignore data files and temp files
+├── README.md                  # Project overview and instructions
+├── requirements.txt           # Python dependencies
+└── eda_main.py                 # Script to run EDA pipeline (optional)
