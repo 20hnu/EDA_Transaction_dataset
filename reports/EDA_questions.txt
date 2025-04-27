@@ -19,6 +19,7 @@ EDA Questions from Both Perspectives:
 * What time of day or day of the week sees more fraud?
 * Is transaction amount unusually high/low for fraudulent cases?
 * Do mismatches in cardCVV or expiration dates correlate with fraud?
+* How date of last address change associate with fraud transactions?
 
 3. Cross-Perspective Questions
 
