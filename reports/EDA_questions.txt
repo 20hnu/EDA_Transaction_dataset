@@ -44,3 +44,17 @@ EDA Questions from Both Perspectives:
 - Are recurringAuthInd transactions more or less likely to be fraudulent?
 - Do fraudulent transactions tend to have a certain transactionType or cardPresent flag?
 - Are there repeated frauds from the same customerId or accountNumber? What are their patterns?
+
+
+
+Customer-based columns: customerId, creditLimit, availableMoney, currentBalance, accountOpenDate, customerAge,cardLast4Digits, cardCVV, currentExpDate, dateOfLastAddressChange
+Transaction-based columns: accountNumber, transactionAmount, merchantName, transactionType, posEntryMode, cardPresent, acqCountry, enteredCVV, cardPresent, merchantCategoryCode, posConditionCode, transactionDateTime
+
+# New Question (28 April)
+- Check If there are card numbers having length less than 4 and if yes, are they prone to fraud?
+- Are identical transactionAmount + merchantName + accountNumber pairs within 1 hour likely fraud?
+- Does a high ratio of currentBalance/creditLimit correlate with fraud likelihood?
+- Do customers with multiple cardLast4Digits linked to the same account show different fraud rates?
+- Are very small transactions (e.g., < $1) more likely to be fraudulent?
+- Are new customers (accountOpenDate < 7 days) with high transactionAmount (> 90th percentile) disproportionately targeted?
+ 
