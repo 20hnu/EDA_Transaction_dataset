@@ -47,7 +47,7 @@ EDA Questions from Both Perspectives:
 
 
 
-Customer-based columns: customerId, creditLimit, availableMoney, currentBalance, accountOpenDate, customerAge,cardLast4Digits, cardCVV, currentExpDate, dateOfLastAddressChange
+Customer-based columns: customerId, creditLimit, availableMoney, currentBalance, accountOpenDate, cardCVV, currentExpDate, dateOfLastAddressChange
 Transaction-based columns: accountNumber, transactionAmount, merchantName, transactionType, posEntryMode, cardPresent, acqCountry, enteredCVV, cardPresent, merchantCategoryCode, posConditionCode, transactionDateTime
 
 # New Question (28 April)
@@ -64,3 +64,10 @@ Transaction-based columns: accountNumber, transactionAmount, merchantName, trans
 - what is the average number of days in which customer related to fraud transactions change their address, after committing first fraud transaction?
 - Do certain merchantCategoryCode + transactionType combinations have unusually high fraud rates?
 - Do customers who commit fraud tend to increase their transaction amount shortly before the fraudulent activity?
+(30 April)
+-At which day of week do specific merchant brands see unusually high fraud rates?
+- Are specific merchants  involved in more fraud?
+- Perform hypothesis testing between all numerical columns and dependent column.
+(1 May)
+- Are accounts with frauds opened in certain day of week?
+- 
