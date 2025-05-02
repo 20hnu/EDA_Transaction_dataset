@@ -70,4 +70,5 @@ Transaction-based columns: accountNumber, transactionAmount, merchantName, trans
 - Perform hypothesis testing between all numerical columns and dependent column.
 (1 May)
 - Are accounts with frauds opened in certain day of week?
-- 
+- Does length of cardCVV number impact fraud rate?
+- Does length of Entered cardCVV number impact fraud rate?
