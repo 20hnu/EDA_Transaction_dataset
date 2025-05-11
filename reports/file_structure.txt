@@ -20,4 +20,3 @@ fraud-eda-project/
 ├── .gitignore                 # To ignore data files and temp files
 ├── README.md                  # Project overview and instructions
 ├── requirements.txt           # Python dependencies
-└── eda_main.py                 # Script to run EDA pipeline (optional)
